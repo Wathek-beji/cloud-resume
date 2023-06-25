@@ -1,0 +1,49 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Tenor Sans',sans-serif;
+}
+
+hr{
+  background: grey;
+}
+
+.page{
+  position: relative;
+  display: flex;
+}
+
+.page > * {
+  border: 1px solid red;
+}
+
+.sidebar{
+  flex: 15%;
+  display: block;
+  position: relative;
+  margin: 5% 2% 0 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.info{
+  flex: 55%;
+  display: block;
+  margin-top: 5%;
+  margin-right: 10%;
+  width: 100%;
+  height: 100%;
+}
+
+.image{
+  position: relative;
+}
+
+.profile-photo{
+  position: relative;
+  width: 200px;
+  height: 205px;
+  border-radius: 10px;
+}
