@@ -140,6 +140,8 @@ hr{
 .subdetails {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  gap: 20px;
   margin: 0;
   font-size: 15px;
   white-space: nowrap;
@@ -147,11 +149,6 @@ hr{
 
 .duration {
   color: #1f4a51;
-}
-
-.divider {
-  flex: 1;
-  min-width: 20px;
 }
 
 .tasks {
