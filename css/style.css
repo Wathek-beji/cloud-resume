@@ -200,3 +200,23 @@ hr{
   margin: 0 auto;
 }
 
+/* Responsive layout */
+
+@media screen and (max-width:1090px){
+  .sidebar{
+      margin-left: 5%;
+  }
+}
+@media screen and (max-width:850px){
+  .container{
+      display: block;
+  }
+  .sidebar{
+      width: 90%;
+  }
+  .page{
+      margin: 0 5%;
+      margin-bottom: 30px;
+  }
+}
+
