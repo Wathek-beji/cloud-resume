@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.css" integrity="sha512-Z0kTB03S7BU+JFU0nw9mjSBcRnZm2Bvm0tzOX9/OuOuz01XQfOpa0w/N9u6Jf2f1OAdegdIPWZ9nIZZ+keEvBw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
 </head>
 <body>
-  <div class="page">
+  <div class="container">
     <aside class="sidebar">
       <!-- Profile Picture -->
       <div class="image">
@@ -25,7 +25,7 @@
       <p class="description">- Placeholder <br>- Placeholder <br>- Placeholder <br>- Placeholder <br>- Placeholder</span></p>
       <hr width="100%">
       <!-- Skills-->
-      <h4 class="section-title">Skills</h4>
+      <h3 class="sidebar-section-title">Skills</h3>
       <ul class="skill-list">
         <li>Python</li>
         <li>Bash</li>
@@ -38,20 +38,36 @@
       </ul>
       <hr width="100%">
       <!-- Certs: To be completed once the certification exam is passed -->
-      <h4 class="section-title">Certifications</h4>
+      <h3 class="sidebar-section-title">Certifications</h3>
       <p style="text-align: center; background-color: #dbdf26;">Pending</p>
       <hr width="100%">
       <!-- Links -->
-      <h4 class="section-title">Reach me here</h4>
-      <nav class="social">
-        <ul>
+      <h3 class="sidebar-section-title">Reach me here</h3>
+      <nav>
+        <ul class="links">
           <li><i class="fa-regular fa-envelope fa-lg" style="color: #3c4658;"></i><a href = "mailto: bejiwathek@gmail.com">bejiwathek@gmail.com</a></li>
           <li><i class="fa-brands fa-github fa-lg" style="color: #3c4658;"></i><a href="https://github.com/Wathek-beji">/wathek-beji <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></li>
           <li><i class="fa-brands fa-linkedin fa-lg" style="color: #3c4658;"></i><a href="https://www.linkedin.com/in/wathekbeji/">/wathekbeji <i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></li>
         </ul>
       </nav>
     </aside>
-    <main class="info">
+    <main class="info-pages">
+      <div class="page">
+        <h3 class="section-title">Professional experience</h3>
+        <hr width="100%">
+        <div class="section-content">
+          <div class="tag">
+            <h4 class="company-name">Kapernikov</h4>
+            <p class="subdetails"><span>Software Engineering Intern</span><span class="divider"></span><span class="duration">2020-now</span></p>
+          </div>
+          <ul class="tasks">
+            <li>Optimized network overhead by transferring filtering and full-text search functionality from the frontend to the
+              backend API, resulting in reduced data retrieval time and better performance.</li>
+            <li>Involved in setting up and managing APIM, Application gateway, Function apps, event hubs, Key vaults, AKS, monitoring & alerting, networking, storage accounts</li>
+            <li>Designed and implemented a robust step-up authentication process for sensitive API endpoints</li>
+            <br>
+          </ul>
+      </div>
       
     </main>
   </div>
