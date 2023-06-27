@@ -78,6 +78,24 @@ hr{
   background-color: #a3a3a3;
 }
 
+.social > ul {
+  padding: 0;
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.social > ul > li {
+  margin-bottom:7px;
+}
+
+.social > ul > li > a {
+  text-decoration: none;
+  color: #708090;
+  font-weight: bold;
+  margin: 0 10px
+}
+
+
 /* Info rules */
 
 .info{
