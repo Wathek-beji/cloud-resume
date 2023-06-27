@@ -130,6 +130,9 @@ hr{
   margin: 17px 0 17px 0;
 }
 
+.award,
+.institution,
+.project-name,
 .company-name{
   margin-bottom: 8px;
   margin-top: 0;
@@ -137,6 +140,7 @@ hr{
   font-weight: 600;
 }
 
+.degree,
 .subdetails {
   display: flex;
   align-items: center;
@@ -147,10 +151,12 @@ hr{
   white-space: nowrap;
 }
 
+.tech-stack,
 .duration {
   color: #1f4a51;
 }
 
+.award-description,
 .tasks {
   padding-left: 30px;
 }
