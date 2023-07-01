@@ -6,12 +6,17 @@ html {
   font-family: 'Tenor Sans',sans-serif;
 }
 
+body {
+  min-width: min-content;
+}
+
 hr{
   background: grey;
 }
 
 .container{
   display: flex;
+  min-width: min-content;
 }
 
 .container > * {
